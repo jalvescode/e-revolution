@@ -1,5 +1,14 @@
 @charset "UTF-8"; 
 
+body{
+    width: 100%;
+    height: 1080px;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images3/Dark_Planet_1920x1080_Space_Desk_Wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 div#main-text-container{
     width: 100%;
     height: 25%;
