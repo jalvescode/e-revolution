@@ -1,0 +1,45 @@
+body{
+    background-color: var(--corcianoclaro);
+}
+#game-header{
+    height: 50px;
+    background-color: var(--corazul);
+}
+
+
+#game-menu{
+    display: flex;
+}
+
+#game-menu > p{
+    padding: 5px;
+}
+
+#character-menu-main{
+    color: var(--corazulescuro);
+}
+
+#character-menu-main:hover > ul{
+    
+    display: flex
+
+}
+
+
+.character-menu-list{
+    display: none;
+}
+.character-menu-list > li{
+    margin-top: 10px;
+    padding: 0px 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+#government-menu-main{
+    color: rgb(221, 144, 43);
+    d
+}
+
+.government-menu-list{
+    display: none;
+}
