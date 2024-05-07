@@ -4,5 +4,51 @@ body{
 #game-header{
     display: flex;
     height: 50px;
-    background-color: var(--corazul);
+    background-color: var(--corazulescuro);
+}
+#menu-title{
+    text-align: center;
+    width: 250px;
+    height: 100%;
+    color: white;
+    font-family: var(--fonte-display);
+}
+#game-menu{
+
+    display: flex;
+    width: 1600px;
+    color: white;
+    font-family: var(--fonte-default);
+}
+#game-menu .character-menu{
+    background-color: var(--corazulescuro);
+    text-align: center;
+    padding: 15px 5px 5px 5px
+}
+#game-menu .character-menu .character-list{
+    display: none;
+    background-color: var(--corazulescuro);
+    margin-top: 15px;
+    padding: 0px 2px 0 2px;
+}
+#game-menu .character-menu .character-list li{
+    padding: 10px 13px;
+}
+#game-menu .character-menu:hover > .character-list{
+    display: block
+}
+#game-menu .map-menu{
+    background-color: var(--corazulescuro);
+    padding: 15px 5px 5px 5px
+}
+#game-menu .map-menu .map-list{
+    display: none;
+    background-color: var(--corazulescuro);
+    margin-top: 15px;
+}
+#game-menu .map-menu .map-list li{
+    padding: 10px 10px;
+}
+#game-menu .map-menu:hover .map-list{
+    display: block;
 }
