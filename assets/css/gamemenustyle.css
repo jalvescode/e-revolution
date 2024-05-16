@@ -1,6 +1,3 @@
-body{
-    background-color: var(--corcianoclaro);
-}
 #game-header{
     display: flex;
     height: 50px;
