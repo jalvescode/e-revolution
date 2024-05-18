@@ -20,7 +20,8 @@
 #game-menu .character-menu{
     background-color: var(--corazulescuro);
     text-align: center;
-    padding: 15px 5px 5px 5px
+    padding: 15px 5px 5px 5px;
+    z-index: 2;
 }
 #game-menu .character-menu .character-list{
     display: none;
@@ -32,11 +33,12 @@
     padding: 10px 13px;
 }
 #game-menu .character-menu:hover > .character-list{
-    display: block
+    display: block;
 }
 #game-menu .map-menu{
     background-color: var(--corazulescuro);
-    padding: 15px 5px 5px 5px
+    padding: 15px 5px 5px 5px;
+    z-index: 2;
 }
 #game-menu .map-menu .map-list{
     display: none;
