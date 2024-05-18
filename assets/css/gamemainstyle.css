@@ -9,7 +9,6 @@ body{
     height: 1000px;
     border-radius: 0px 0px 5px 5px;
     display: flex;
-    z-index: 1;
 
 }
 #main-container .main-header-container{
@@ -18,16 +17,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
 }
 #main-container .main-header-box{
     width: 98%;
     height: 170px;
     border-radius: 10px;
-    background-color: var(--corcianoclaro);
+    background-color: var(--corazul);
     display: flex;
     align-items: center;
-    z-index: 1;
 }
 .main-header-player-stats{
     width: 70%;
@@ -40,8 +37,45 @@ body{
     height: 125px;
     margin-left: 5px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
 }
+.header-player-stats{
+    height: 100%;
+    width: 700px;
+    margin-left: 5px;
+    color: white;
+    font-family: var(--fonte-default);
+    background-colr: black;
+}
+.header-player-stats > section{
+
+}
+
+.player-atribute-health{
+    width: 350px;
+    height: 50%;
+    background-clor: red;
+    float: left;
+}
+.player-bank{
+    width: 350px;
+    height: 50%;
+    background-clor: blue;
+    float: right;
+}
+.player-atributes{
+    width: 350px;
+    height: 50%;
+    background-clor: yellow;
+    float: left;
+}
+.player-equipment{
+    width: 350px;
+    height: 50%;
+    background-clor: green;
+    float: right;
+}
+
 
 
 
